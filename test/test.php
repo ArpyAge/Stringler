@@ -3,24 +3,24 @@ include '../src/Stringler.php';
 
 $stringler = new Stringler("Iamamonkey");
 if($stringler->endsWith("monkey")) {
-  echo 'Yes I am!';
+	echo 'Yes I am!';
 }
 else {
-  echo 'Why not? :(';
+	echo 'Why not? :(';
 }
 
 if($stringler->startsWith("Iam")) {
-  echo 'Monkey!';
+	echo 'Monkey!';
 }
 else {
-  echo 'Wait what?';
+	echo 'Wait what?';
 }
 
 if($stringler->contains("ama")) {
-  echo 'Ask me anything!';
+	echo 'Ask me anything!';
 }
 else {
-  echo 'Or don\'t';
+	echo 'Or don\'t';
 }
 
 if($stringler->regex("/\w+/")) {
